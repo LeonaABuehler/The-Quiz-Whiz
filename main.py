@@ -169,7 +169,7 @@ with gr.Blocks(title="The Quiz Whiz", theme=gr.themes.Soft(primary_hue="amber", 
     </body>
     """)
 
-    gr.Image("LOGO-Picsart-BackgroundRemover.jpg", interactive=False, show_label=False, height=80)
+    gr.Image("logo.jpeg", interactive=False, show_label=False, height=80)
 
     file_input = gr.File(label="Upload PDF(s)", file_types=[".pdf"], file_count="multiple")
     file_output = gr.Textbox(label="Uploaded File Info")
@@ -198,4 +198,4 @@ with gr.Blocks(title="The Quiz Whiz", theme=gr.themes.Soft(primary_hue="amber", 
     generate_button.click(chat_with_ai, inputs=[question_types, difficulty_levels, num_questions], outputs=chat_output)
     generate_pdf_button.click(generate_pdf, inputs=[chat_output, pdf_title], outputs=pdf_download)
 
-demo.launch(share=True, favicon_path="Light_processed.ico")
+demo.launch(share=True, favicon_path="favicon.ico")

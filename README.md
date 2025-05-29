@@ -1,9 +1,9 @@
-<!-- The Quiz Whiz -->
+# The Quiz Whiz 
 <h3>AI Application that allows users to generate quizzes based on uploaded PDF's.</h3>
 
 <!-- Embedded Video -->
 <video width="640" height="360" controls>
-  <source src="Screen Recording 2025-05-29 at 7.56.53 AM.mov" type="video/quicktime">
+  <source src="thequizwhiz.mov" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 

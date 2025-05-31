@@ -1,7 +1,7 @@
 # The Quiz Whiz 
 <h3>AI Application that allows users to generate quizzes based on uploaded PDF's.</h3>
 
-<img src="vid" alt="Demonstration" />
+<img src="webpage.gif" alt="Demonstration" />
 
 ## Features
 <ol>
